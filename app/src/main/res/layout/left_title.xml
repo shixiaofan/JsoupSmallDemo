@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="80dp"
+              android:orientation="horizontal"
+    android:background="@color/center_main_title">
+    <ImageView
+        android:src="@drawable/icon1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+    <TextView
+        android:text="请登录"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:textColor="@color/title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</FrameLayout>
